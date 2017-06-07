@@ -1,0 +1,222 @@
+<resources>
+    <string name="app_name">PureX</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- Selection of map style -->
+    <string name="menu_map_type">Map Type</string>
+    <string name="menu_map_type_satellite">Satellite</string>
+    <string name="menu_map_type_hybrid">Hybrid</string>
+    <string name="menu_map_type_normal">Normal</string>
+    <string name="menu_map_type_terrain">Terrain</string>
+    <!-- Flight Setup Resource Strings -->
+    <string name="setup_fm_title">Flight Mode Configuration</string>
+    <string name="setup_fm_side_title">Update Flight Mode</string>
+    <string name="setup_fm_side_desc">Press \'Send\' to update the new flight modes to vehicle.</string>
+    <string name="setup_fm_desc_uploading">Uploading Flight Mode configuration data</string>
+    <string name="setup_fm_desc_downloading">Downloading Flight Mode configuration data</string>
+    <string name="setup_fm_mode1">1.</string>
+    <string name="setup_fm_mode2">2.</string>
+    <string name="setup_fm_mode3">3.</string>
+    <string name="setup_fm_mode4">4.</string>
+    <string name="setup_fm_mode5">5.</string>
+    <string name="setup_fm_mode6">6.</string>
+    <string name="setup_fm_simple">Simple Mode</string>
+    <string name="setup_fm_super">Super Simple Mode</string>
+
+    <!-- Channel Options Setup Resource Strings -->
+    <string name="setup_ch_title">Channel Options Configuration</string>
+    <string name="setup_ch_side_title">Update Channel Options</string>
+    <string name="setup_ch_side_desc">Press \'Send\' to update the new servo function to vehicle.</string>
+    <string name="setup_ch_tune_title">Channel 6 - Tuning Function</string>
+    <string name="setup_ch_options_title">Channel Options - CH7 &amp; CH8</string>
+    <string name="setup_ch_CH7_options">Channel 7 Options:</string>
+    <string name="setup_ch_CH6_options">Channel 6 Tuning:</string>
+    <string name="setup_ch_CH8_options">Channel 8 Tuning:</string>
+    <string name="setup_ch_tune_low">Tune Value - Low:</string>
+    <string name="setup_ch_tune_high">Tune Value - High:</string>
+
+    <!-- Servo functions Setup Resource Strings -->
+    <string name="setup_sf_title">Servo Function Configuration</string>
+    <string name="setup_sf_side_title">Update Servo Function</string>
+    <string name="setup_sf_side_desc">Press \'Send\' to update the new servo function to vehicle.</string>
+    <string name="setup_sf_desc_uploading">Uploading Servo configuration data</string>
+    <string name="setup_sf_desc_downloading">Downloading Servo configuration data</string>
+    <string name="setup_sf_servo_title">Servo Functions Configuration</string>
+    <string name="setup_sf_servo5">Servo 5:</string>
+    <string name="setup_sf_servo6">Servo 6:</string>
+    <string name="setup_sf_servo7">Servo 7:</string>
+    <string name="setup_sf_servo8">Servo 8:</string>
+    <string name="setup_sf_servo9">Servo 9:</string>
+    <string name="setup_sf_servo10">Servo 10:</string>
+
+    <!-- Radio Setup Resource Strings -->
+    <string name="setup_radio_title">Radio Channel Calibration</string>
+    <string name="setup_radio_cal_title">Start Calibration</string>
+    <string name="setup_radio_cal_desc">Press Calibrate to start the radio calibration. Ensure the radio transmitter is switched \'ON\' and transmitting.</string>
+    <string name="setup_radio_title_minmax">Set Min &amp; Max values</string>
+    <string name="setup_radio_title_middle">Set Center values</string>
+    <string name="setup_radio_title_complete">Calibration complete</string>
+    <string name="setup_radio_desc_minmax">Move the joysticks all the way out several times and toggle the switches, levers and knobs to all possible positions.</string>
+    <string name="setup_radio_desc_middle">Set throttle stick to the lowest position and other joysticks, switches, levers and knobs to their center position.</string>
+    <string name="setup_radio_desc_complete">RC calibration completed. Press \'Save\' to upload data to vehicle.</string>
+
+    <!-- Accelerometer Setup Resource Strings -->
+    <string name="setup_imu_title">Accelerometer Calibration</string>
+    <string name="setup_imu_start">Press Calibrate to start IMU calibration. Ensure vehicle is placed on a FLAT surface before beginning the calibration process.</string>
+    <string name="setup_imu_normal">Place the vehicle on its NORMAL position ensuring very minimal movement and press Next.</string>
+    <string name="setup_imu_left">Place the vehicle on its LEFT ensuring very minimal movement and press Next.</string>
+    <string name="setup_imu_right">Place the vehicle on its RIGHT ensuring very minimal movement and press Next.</string>
+    <string name="setup_imu_nosedown">Place the vehicle NOSE DOWN ensuring very minimal movement and press Next.</string>
+    <string name="setup_imu_noseup">Place the vehicle NOSE UP ensuring very minimal movement and press Next.</string>
+    <string name="setup_imu_back">Place the vehicle on its BACK ensuring very minimal movement and press Next.</string>
+    <string name="setup_imu_completed">Accelerometer calibration completed. If it was not successful, please recalibrate.</string>
+    <string name="setup_imu_step">To start calibration, press Calibrate.</string>
+    <string name="setup_imu_timeleft">Time left before next orientation:</string>
+
+    <!-- Compass Setup Resource Strings -->
+    <string name="setup_mag_title">Compass Calibration</string>
+    <string name="setup_mag_start">Press Calibrate to start magnetometer calibration. Perform the calibration outdoors away from metal objects.</string>
+
+    <!-- Preference dialogs -->
+    <string name="unlock_slider_description">Slide to %s</string>
+    <string name="pref_misc_title">Miscellaneous</string>
+    <string name="pref_dialogs_title">Preference Dialogs</string>
+    <string name="pref_warn_on_arm_title">Arming button warning</string>
+    <string name="pref_auto_insert_mission_takeoff_rtl_land_title">Auto insert \'TakeOff\' and
+        \'RTL\'/\'Land\' to mission</string>
+    <string name="pref_dialog_entry_always">Always</string>
+    <string name="pref_dialog_entry_never">Never</string>
+    <string name="pref_dialog_entry_ask">Ask</string>
+    <string name="pref_dialog_selection_reset_desc"><![CDATA[Reset selection through: Settings -> User Interface -> Preference Dialogs]]></string>
+    <string name="dialog_confirm_take_off_in_auto_title">Take off in Auto?</string>
+    <string name="dialog_confirm_take_off_in_auto_msg">Warning! The drone will now take off and start the mission.</string>
+    <string name="pref_dronie_creation_title">Create dronie?</string>
+    <string name="pref_dronie_creation_message">Please stand back 8m before starting the dronie.</string>
+    <string name="editor_multi_edit_no_waypoint_error">No waypoint(s) selected.</string>
+    <string name="failed_start_calibration_message">Unable to start calibration!</string>
+    <string name="pref_advanced_menu_title">Advanced Menu</string>
+    <string name="pref_advanced_menu_summary">Enable advanced menu options.</string>
+    <string name="pref_licenses">Licenses</string>
+    <string name="pref_licenses_summary">Libraries (and their licenses) used in this project</string>
+    <string name="upload_params">Upload parameters</string>
+    <string name="download_params">Download parameters</string>
+    <string name="import_from_device">Import from file</string>
+    <string name="export_to_device">Export to file</string>
+    <string name="pref_title_local">Localization</string>
+
+    <string name="unit_system_entry_auto">Auto</string>
+    <string name="unit_system_entry_metric">Metric System</string>
+    <string name="unit_system_entry_imperial">Imperial System</string>
+    <string name="pref_unit_system_title">Unit System</string>
+    <string name="pref_unit_system_summary">Select the unit system to use throughout the app.</string>
+    <string name="account_label">Account</string>
+    <string name="label_sign_up">Sign Up</string>
+    <string name="label_login">Login</string>
+    <string name="label_logout">Logout</string>
+    <string name="delete_selected_waypoints_confirm">Clear selected waypoints from the map?</string>
+    <string name="delete_selected_waypoints_title">Clear selected waypoints</string>
+    <string name="label_select_all">Select all</string>
+    <string name="guided_scan_roi_set_message">Targeting selected location.</string>
+    <string name="mode_follow_guided_scan">Vehicle follows the user while remaining locked on a point of interest. Long click on the map to select the point of interest.</string>
+    <string name="pref_no_saved_bluetooth_device_title">No saved bluetooth device.</string>
+    <string name="label_mission_item_type_selection">Select Waypoint Type</string>
+    <string name="label_mission_item_type_no_selection">No available option</string>
+    <string name="description_mission_item_type_selection">Click on the spinner to select a type for the selected waypoints.</string>
+    <string name="description_mission_item_type_no_selection">No type option is available for the selected items.</string>
+    <string name="label_vehicle_details">Vehicle details</string>
+    <string name="pref_ground_collision_warning_title">Ground Collision</string>
+    <string name="pref_ground_collision_warning_summary">Warns about imminent ground collision.</string>
+    <string name="pref_map_rotation_title">Enable map rotation</string>
+    <string name="pref_map_rotation_summary">Check to enable the ability to rotate the map.</string>
+    <string name="pref_advance_menu_title">Advanced Menu Options</string>
+    <string name="pref_enable_kill_switch_summary">If enabled, a Kill Switch option will appear under the Advanced section in the menu, allowing to disarm the vehicle immediately.</string>
+    <string name="pref_enable_kill_switch_title">Enable Kill Switch</string>
+    <string name="pref_enable_udp_server_title">Enable UDP server ping</string>
+    <string name="pref_udp_server_ping_summary">Enable to allow the app to periodically ping the udp server.</string>
+    <string name="pref_udp_ping_receiver_ip_title">UDP ping receiver ip</string>
+    <string name="pref_udp_ping_receiver_port_title">UDP ping receiver port</string>
+    <string name="invalid_location_settings_warning">Unable to get accurate location. Please update your location settings!</string>
+
+    <!-- Text To Speech -->
+    <string name="pref_title_tts">Speech Output</string>
+    <string name="pref_title_tts_periodic">Periodic</string>
+    <string name="pref_title_tts_periodic_status">Periodic Status</string>
+    <string name="pref_tts_periodic_summary">What is included in the periodic status.</string>
+    <string name="pref_tts_periodic_period">Period</string>
+    <string name="pref_tts_periodic_period_summary">How often periodic status is read.</string>
+    <string name="pref_tts_periodic_bat_volt">Battery Voltage</string>
+    <string name="pref_tts_periodic_bat_volt_summary">Read battery voltage.</string>
+    <string name="pref_tts_periodic_alt">Altitude</string>
+    <string name="pref_tts_periodic_alt_summary">Read altitude.</string>
+    <string name="pref_tts_periodic_rssi">Signal Strength (RSSI)</string>
+    <string name="pref_tts_periodic_rssi_summary">Read Received Signal Strength Indication.</string>
+    <string name="pref_tts_periodic_airspeed">Airspeed</string>
+    <string name="pref_tts_periodic_airspeed_summary">Read airspeed.</string>
+    <string name="pref_title_tts_warnings">Warnings</string>
+    <string name="pref_tts_warning_solar_activity">Solar Activity</string>
+    <string name="pref_tts_warning_solar_activity_summary">Warns about high solar activity which can decrease gps accuracy.</string>
+    <string name="pref_tts_warning_wind_speed">Wind Speed</string>
+    <string name="pref_tts_warning_wind_speed_summary">Warns about high wind speeds which may make flight difficult.</string>
+    <string name="pref_tts_warning_400ft_ceiling_exceeded">400ft. Exceeded</string>
+    <string name="pref_tts_warning_400ft_ceiling_exceeded_summary">In many situations it is illegal to fly above 400ft.</string>
+    <string name="pref_tts_warning_low_signal_strength">Low Signal Strength</string>
+    <string name="pref_tts_warning_low_signal_strength_summary">Warns when connection to drone is bad.</string>
+    <string name="pref_tts_warning_lost_signal">Connection Status</string>
+    <string name="pref_tts_warning_lost_signal_summary">Warns when connection to drone is severed or restored.</string>
+    <string name="pref_tts_warning_autopilot_warnings">Autopilot-Reported Warnings</string>
+    <string name="pref_tts_warning_autopilot_warnings_summary">Warns about arm failures, low battery, etc.</string>
+    <string name="pref_tts_periodic_status_disabled">Status disabled</string>
+    <string name="pref_tts_status_every">Status every </string>
+    <string name="pref_tts_seconds">seconds</string>
+    <string name="pref_tts_off">off</string>
+
+    <string name="install_service_dialog_title">Install 3DR Services!</string>
+    <string name="install_service_dialog_message">3DR Services must be installed on the device to use this app.</string>
+    <string name="install_service_dialog_install_button">Install</string>
+
+    <string name="update_service_dialog_title">Update 3DR Services!</string>
+    <string name="update_service_dialog_message">Your version of 3DR Services must be updated to continue.</string>
+    <string name="update_service_dialog_update_button">Update</string>
+
+    <string name="error_no_error">No error!</string>
+    <string name="error_throttle_below_failsafe">Throttle below failsafe</string>
+    <string name="error_gyro_calibration_failed">Gyro calibration failed</string>
+    <string name="error_mode_not_armable">Mode not armable</string>
+    <string name="error_rotor_not_spinning">Rotor not spinning</string>
+    <string name="error_vehicle_leaning">Vehicle is leaning</string>
+    <string name="error_throttle_too_high">Throttle too high</string>
+    <string name="error_safety_switch">Safety switch</string>
+    <string name="error_compass_calibration_running">Compass calibration running</string>
+    <string name="error_rc_not_calibrated">RC not calibrated</string>
+    <string name="error_barometer_not_healthy">Barometer not healthy</string>
+    <string name="error_compass_not_healthy">Compass not healthy</string>
+    <string name="error_compass_not_calibrated">Compass not calibrated</string>
+    <string name="error_compass_offsets_too_high">Compass offsets too high</string>
+    <string name="error_check_magnetic_field">Check magnetic field</string>
+    <string name="error_inconsistent_compass">Inconsistent compass</string>
+    <string name="error_check_geo_fence">Check geo fence</string>
+    <string name="error_ins_not_calibrated">Inertial Navigation System not calibrated</string>
+    <string name="error_accelerometers_not_healthy">Accelerometers not healthy</string>
+    <string name="error_inconsistent_accelerometers">Inconsistent accelerometers</string>
+    <string name="error_gyros_not_healthy">Gyros not healthy</string>
+    <string name="error_inconsistent_gyros">Inconsistent gyros</string>
+    <string name="error_check_board_voltage">Check board voltage</string>
+    <string name="error_duplicate_aux_switch_options">Duplicate aux switch options</string>
+    <string name="error_check_failsafe_threshold">Check failsafe threshold</string>
+    <string name="error_check_angle_max">Check max angle</string>
+    <string name="error_acro_bal_roll_pitch">Acro bal roll/pitch</string>
+    <string name="error_need_gps_lock">Need GPS lock</string>
+    <string name="error_ekf_home_variance">EKF Home variance</string>
+    <string name="error_high_gps_hdop">High GPS hdop</string>
+    <string name="error_gps_glitch">GPS glitch</string>
+    <string name="error_waiting_for_navigation_alignment">Waiting for navigation alignment</string>
+    <string name="error_altitude_disparity">Altitude disparity</string>
+    <string name="error_low_battery">Low battery!</string>
+    <string name="error_auto_tune_failed">Auto-tune failed!</string>
+    <string name="error_crash">Vehicle crash</string>
+    <string name="error_parachute_too_low">Parachute too low</string>
+    <string name="error_ekf_variance">EKF Variance</string>
+    <string name="error_no_dataflash">No inserted dataflash</string>
+    <string name="error_rc_failsafe">RC Failsafe</string>
+
+</resources>
